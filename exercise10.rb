@@ -48,3 +48,12 @@ puts colours.last
 cities[:new_york] = "11 million"
 coin = coin.reverse
 puts artists = ["micheal is great","madonna if cool ","gene is wild"]
+
+
+#ex3
+
+puts artists[0..1]
+puts movies
+ages = ages.sort.reverse
+puts ages
+movies[:beuty_and_the_beast] = ["1991","2017"]
