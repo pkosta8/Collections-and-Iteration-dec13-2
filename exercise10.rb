@@ -53,7 +53,28 @@ puts artists = ["micheal is great","madonna if cool ","gene is wild"]
 #ex3
 
 puts artists[0..1]
-puts movies
+puts  "#{movies}  came out in "
 ages = ages.sort.reverse
 puts ages
 movies[:beuty_and_the_beast] = ["1991","2017"]
+
+
+#ex4
+
+people.each do |person,age|
+if age < 30
+puts person
+end
+end
+
+puts people.values.max
+count = 0
+coin.each do   |flip|
+count = 0
+if flip == "heads"
+count = count + 1
+end
+end
+puts count
+artists.pop
+cities[:toronto] = 4000000
