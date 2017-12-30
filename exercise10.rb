@@ -41,3 +41,10 @@ puts colors[0]
 age.push 0
 puts ages.sort
 puts movies.values[0]
+
+
+#ex2
+puts colours.last
+cities[:new_york] = "11 million"
+coin = coin.reverse
+puts artists = ["micheal is great","madonna if cool ","gene is wild"]
