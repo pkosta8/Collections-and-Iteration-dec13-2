@@ -245,3 +245,13 @@ else
 puts num
 end
 end
+
+
+# ex12
+puts "How many pizzas do you want?"
+quanity = gets.chop.to_i
+quanity.times do |num|
+puts "How many toppings on the pizza #{num + 1}?"
+toppings = gets.chop.to_i
+puts "You ordered a pizza with #{toppings}toppings."
+end
