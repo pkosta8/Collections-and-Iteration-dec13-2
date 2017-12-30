@@ -155,6 +155,7 @@ number2 << num2
 number2 << num2
 num2 += 1
 }
+
 puts number2
 
 island_countries = []
