@@ -78,3 +78,30 @@ end
 puts count
 artists.pop
 cities[:toronto] = 4000000
+
+
+
+#exercise5
+total = 0
+cities.each do |city, population|  total = total + population.to_i
+end
+puts total
+people.each do |person, age|
+if age > 50
+puts "#{person} is old"
+else
+puts "#{person} is young"
+end
+end
+
+puts color[3..4]
+ages.each do |age|
+age = age + 1
+end
+puts ages
+colors.push "purple"
+colors.push "gold"
+puts colors
+
+
+#ex6
