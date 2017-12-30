@@ -123,3 +123,45 @@ mex = {name: "mexico", continent: "north america", island: false},
 us =  {name: "us",     continent: "north america", island: false}
 ]
 puts countries[1][:island]
+
+# exercise 7
+skate = "I will not skateboard in the halls"
+skateboard = []
+20.times {
+puts skate
+skateboard << skate
+}
+puts skateboard
+
+numbers = []
+number = 1
+50.times {
+numbers << number
+numumber = number + 1
+}
+puts numbers
+#loop
+total = 0
+numbers.each do |number|
+total = total + number
+end
+puts total
+# repeater
+num2 = 1
+number2 = []
+50.times {
+number2 << num2
+number2 << num2
+number2 << num2
+num2 += 1
+}
+puts number2
+
+island_countries = []
+countries.each do |countries|
+if countries[:island] == false
+island_countries << countries
+end
+end
+puts countries
+puts island_countries
