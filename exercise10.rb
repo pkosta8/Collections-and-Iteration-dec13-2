@@ -178,3 +178,26 @@ expenses.each do |sum |
 total = sum + total
 end
 puts total
+
+
+# ex9
+grocery_list = ["carrots", "toilet paper", "apples", "cherry"]
+def list(grocery_list)
+grocery_list.each_with_index do |grocery_list|
+puts "*  #{grocery_list}"
+end
+end
+
+grocery_list << "rice"
+list(grocery_list)
+puts grocery_list.length
+
+if grocery_list.include? "banana"
+puts "You need to pick up bananas!"
+else
+puts "You dont need to pick up bananas!"
+end
+
+puts grocery_list[1]
+grocery_list.sort_by! {|word| word.downcase}
+list(grocery_list)
