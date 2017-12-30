@@ -1,4 +1,4 @@
-#exercise 0
+#ex 0
 
 colors = ["green", "orange", "black", "blue", "yellow"]
 ages = [88, 20, 36, 22, 17]
@@ -31,3 +31,13 @@ alex: 35,
 michelle: 42,
 patrick: 49,
 orlando: 46
+
+
+
+#ex1
+
+puts coin
+puts colors[0]
+age.push 0
+puts ages.sort
+puts movies.values[0]
