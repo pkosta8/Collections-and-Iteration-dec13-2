@@ -105,3 +105,21 @@ puts colors
 
 
 #ex6
+
+
+movies = {
+  "1999" => ["The Matrix", "'star wars", "the mummy"],
+  "2009" => ["star trek", "district 9", "avatar"],
+  "2019" => ["how to train your dragon 3", "toy story 4", "star wars"]
+}
+puts movies["2009"][1]
+
+phone = [["1","2","3"],["4","5","6"],["7","8","9"],["*","0","#"]]
+puts phone[1][1]
+
+countries = [
+can = {name: "canada", continent: "north america", island: false},
+mex = {name: "mexico", continent: "north america", island: false},
+us =  {name: "us",     continent: "north america", island: false}
+]
+puts countries[1][:island]
