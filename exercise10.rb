@@ -166,3 +166,15 @@ end
 end
 puts countries
 puts island_countries
+
+
+#ex8
+
+
+expenses = [250, 140, 85, 300, 50]
+sum = 0
+total = 0
+expenses.each do |sum |
+total = sum + total
+end
+puts total
